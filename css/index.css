@@ -16,3 +16,159 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+html{
+	font-family: 'Amatic SC', cursive;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align:center;
+	background-image:url(../images/concrete_wall.png);	
+}
+
+h1{
+	font-family: 'Cabin Sketch', cursive;
+	font-size:4rem;
+	font-weight:700;
+	margin-top: -1rem;
+	margin-bottom: -2rem;
+	color:#FFFFFF;
+}
+
+h2{
+	font-size:2.25rem;
+	font-weight:400;
+	text-transform: uppercase;
+	padding-top: 3rem;
+	color:#CBE0E3;
+}
+
+p{
+	font-size:1.75rem;
+	font-weight:300;
+	margin-top: 6rem;
+	color:#B3D4B5;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.vacations{
+	text-align:center;
+}
+
+.icon-india{
+	font-size: 8rem;
+	color:#D3DD06;
+}
+
+.icon-caribe{
+	font-size: 8rem;
+	color:#D51518;
+}
+
+.icon-england{
+	font-size: 8rem;
+	color:#991BE7;
+}
+
+.india{
+	width: 100%;
+	display:inline-block;
+}
+
+.caribe{
+	width: 100%;
+	display:inline-block;
+}
+
+.england{
+	width: 100%;
+	display:inline-block;
+}
+
+
+@media only screen and (min-width:45em) {
+
+h1{
+	font-size:6rem;
+}
+
+.india{
+	width: 30%;
+	display:inline-block;
+}
+
+.caribe{
+	width: 30%;
+	display:inline-block;
+}
+
+.england{
+	width: 30%;
+	display:inline-block;
+}
+	
+}
+/*
+==============================================
+TRANSITIONS
+==============================================
+*/
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
+.box:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.box-2 {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
+.box-2:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.box-3 {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
+.box-3:hover {
+  color: pink;
+  cursor: pointer;
+}
