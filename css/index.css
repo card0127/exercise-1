@@ -132,11 +132,17 @@ TRANSITIONS
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
   transition: color 1s ease-out;
+	transition: all 0.3s ease-in;
+  
 }
 
 .box:hover {
   color: #D9854D;
   cursor: pointer;
+  -webkit-stroke-width: 3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 10px yellow;
 }
 
 .box-2 {
@@ -149,11 +155,16 @@ TRANSITIONS
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
   transition: color 1s ease-out;
+  transition: all 0.3s ease-in;
 }
 
 .box-2:hover {
   color: #A0C9D9;
   cursor: pointer;
+  -webkit-stroke-width: 3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 10px #CBD3F1;
 }
 
 .box-3 {
@@ -166,9 +177,14 @@ TRANSITIONS
   -moz-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
   transition: color 1s ease-out;
+  transition: all 0.3s ease-in;
 }
 
 .box-3:hover {
   color: #506CA6;
   cursor: pointer;
+  -webkit-stroke-width: 3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 10px #DE0508;
 }
