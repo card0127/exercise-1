@@ -65,17 +65,17 @@ a {
 
 .icon-india{
 	font-size: 8rem;
-	color:#D3DD06;
+	color:#D9732B;
 }
 
 .icon-caribe{
 	font-size: 8rem;
-	color:#D51518;
+	color:#619FA8;
 }
 
 .icon-england{
 	font-size: 8rem;
-	color:#991BE7;
+	color:#2F56A6;
 }
 
 .india{
@@ -135,7 +135,7 @@ TRANSITIONS
 }
 
 .box:hover {
-  color: green;
+  color: #D9854D;
   cursor: pointer;
 }
 
@@ -152,7 +152,7 @@ TRANSITIONS
 }
 
 .box-2:hover {
-  color: blue;
+  color: #A0C9D9;
   cursor: pointer;
 }
 
@@ -169,6 +169,6 @@ TRANSITIONS
 }
 
 .box-3:hover {
-  color: pink;
+  color: #506CA6;
   cursor: pointer;
 }
